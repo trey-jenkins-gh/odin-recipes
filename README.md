@@ -1,0 +1,1 @@
+This is the first project of The Odin Project Foundations course. This project will use html to link togther multiple web pages, all containing unique content to display recipes. Each page will have a heading, an image, a paragraph, a list, and at least one link. All pages will be able to return back to the homepage.
