@@ -1,0 +1,53 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* All Pages */
+
+.recipe .description {
+    font-size: 21px;
+}
+
+.list li {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: left;
+}
+
+body {
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+/* Home Page */
+
+.home {
+    text-align: center;
+    color: rgb(44, 129, 129);
+    margin-left: 10em;
+    margin-right: 10em;
+}
+.home .list  li {
+    margin-left: 30%;
+}
+
+/* Chicken Veg Recipe */
+
+.chickenveg  {
+    text-align: center;
+}
+
+
+/* Mac Cheese */
+
+.maccheese {
+    text-align: center;
+}
+
+/* Lemonade */
+
+.lemonade {
+    text-align: center;
+}
+
+
