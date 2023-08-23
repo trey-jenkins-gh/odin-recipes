@@ -1,8 +1,13 @@
 * {
     font-family: 'Courier New', Courier, monospace;
+    /* border: 2px solid red; */
 }
 
 /* All Pages */
+
+.image {
+    border-radius: 12px;
+}
 
 .recipe .description {
     font-size: 21px;
@@ -15,20 +20,38 @@
 }
 
 body {
-    margin-left: 10em;
-    margin-right: 10em;
+    margin-left: 4em;
+    margin-right: 4em;
 }
 
 /* Home Page */
 
 .home {
     text-align: center;
-    color: rgb(44, 129, 129);
-    margin-left: 10em;
-    margin-right: 10em;
+    width: 80%;
+    border: 2px solid rgb(30, 57, 210);
+    background-color: rgb(94, 223, 255);
+    border-radius: 12px;
+    color: rgb(6, 19, 134);
+    margin: 44px auto;
+
 }
-.home .list  li {
-    margin-left: 30%;
+
+.home .list {
+    display: inline-block;
+    margin-left: 2rem;
+}
+
+.home .link {
+    display: inline-flex;
+    
+}
+.link .image img{
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    border: 2px solid blue;
+    border-radius: 12px;
 }
 
 /* Chicken Veg Recipe */
