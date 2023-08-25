@@ -10,6 +10,7 @@
     width: auto;
     max-width: 600px;
     height: auto;
+    flex: auto;
     max-height: fit-content;
 }
 
@@ -79,14 +80,26 @@ body {
     margin-left: 2rem;
 }
 
+.container.links {
+    display: flex;
+    justify-content: center;
+}
+
 .home .link {
-    display: inline-flex;
+    width: 900px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
     
 }
+
+
 .link .image img{
     width: 200px;
     height: 200px;
-    margin: 15px;
     border: 2px solid blue;
     border-radius: 12px;
 }
