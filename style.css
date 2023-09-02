@@ -106,8 +106,10 @@ a img {
     justify-content: center;
 }
 /* HOME */
-/* __________Chicken Veg________________________ */
-.chickenveg .header .container{
+/* __________Recipes________________________ */
+.chickenveg .header .container,
+.maccheese .header .container,
+.lemonade .header .container{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -116,7 +118,9 @@ a img {
     text-align: center;
 }
 
-.chickenveg .recipe-boxes .container{
+.chickenveg .recipe-boxes .container
+.maccheese .recipe-boxes .container,
+.lemonade .recipe-boxes .container{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -144,7 +148,7 @@ a:hover{
     color: #333;
 }
 
-/* ___________MacCheese_______________________ */
+/* ___________________________________________________ */
 
 @media(max-width: 800px){
     .navbar{
