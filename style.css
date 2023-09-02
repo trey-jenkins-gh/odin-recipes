@@ -105,8 +105,53 @@ a img {
     display: flex;
     justify-content: center;
 }
+/* HOME */
+/* __________Chicken Veg________________________ */
+.chickenveg .header .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    text-align: center;
+}
 
-@media(max-width: 768px){
+.chickenveg .recipe-boxes .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+.recipe-boxes ul {
+    list-style: none;
+}
+
+.recipe-boxes .container .box {
+    flex: 1;
+    text-align: center;
+    background-color: #fff;
+    padding: 15px 50px;
+    border-radius: 12px;
+}
+
+a:link,
+a:visited,
+a:hover{
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* ___________MacCheese_______________________ */
+
+@media(max-width: 800px){
+    .navbar{
+        height: auto;
+        text-align: center;
+        padding: 20px 0;
+    }
     .header .container {
         flex-direction: column;
         padding-top: 20px;
@@ -118,7 +163,9 @@ a img {
         text-align: center;
     }
 }
-/* HOME */
+
+
+
 
 
 
