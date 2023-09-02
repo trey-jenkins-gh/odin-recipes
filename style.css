@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.5;
     color: #333;
     background-color: darksalmon;
@@ -127,6 +127,12 @@ a img {
     padding: 24px;
 }
 
+ol {
+    max-width: 100%;
+    padding: 12px 30px;
+    text-align: center;
+}
+
 .recipe-boxes ul {
     list-style: none;
 }
@@ -151,6 +157,9 @@ a:hover{
 /* ___________________________________________________ */
 
 @media(max-width: 800px){
+    body{
+        font-size: 24px
+    };
     .navbar{
         height: auto;
         text-align: center;
